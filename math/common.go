@@ -1,5 +1,6 @@
 package math
 
-func factor(i int) int {
-	return i * factor(i-1)
+// Factor ...
+func Factor(i int) int {
+	return i * Factor(i-1)
 }
